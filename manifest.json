@@ -1,0 +1,15 @@
+{
+  "short_name": "Morse",
+  "name": "My Application",
+  "icons": [
+    {
+      "src": "",
+      "type": "",
+      "sizes": ""
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "theme_color": "#0A0404",
+  "background_color": "#0A0404"
+}

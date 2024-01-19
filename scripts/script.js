@@ -8,11 +8,6 @@ const btn_convert = document.querySelector('.btn_convert_to_morse')
 // const string = 'my name is tolik'
 
 
-
-
-
-
-
 const convert_string_to_array = function (string) {
 
   const string_toLowerCase = string.toLowerCase()
