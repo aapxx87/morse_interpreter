@@ -2,10 +2,10 @@ const text_input = document.querySelector('.textarea_input_text')
 const morse_output_area = document.querySelector('.morse_container')
 
 const btn_convert = document.querySelector('.btn_convert_to_morse')
+const btn_reset = document.querySelector('.btn_reset')
 
 
 
-// const string = 'my name is tolik'
 
 
 const convert_string_to_array = function (string) {
@@ -53,6 +53,15 @@ btn_convert.addEventListener('click', function () {
   const morse_output = convert_letter_to_morse(convert_string_to_array(string_to_convert))
 
   morse_output_area.textContent = morse_output
+
+})
+
+
+
+btn_reset.addEventListener('click', function () {
+
+  text_input.value = ''
+  morse_output_area.textContent = ''
 
 })
 
